@@ -1,9 +1,10 @@
 import React from 'react'
 
-function Products() {
+function Products({ item, setItems }) {
     return (
-        <div>
-            
+        <div className='card'>
+            <img alt={item.title} src={item.image} />
+            <p>{item.title}</p>
         </div>
     )
 }

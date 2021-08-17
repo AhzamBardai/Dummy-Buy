@@ -1,11 +1,13 @@
 import React from 'react'
 
-function FIlter() {
+function Filter() {
     return (
-        <div>
-            
+        <div className='filter-container'>
+            <div className='filter'>
+                <p>Filter</p>
+            </div>
         </div>
     )
 }
 
-export default FIlter
+export default Filter
