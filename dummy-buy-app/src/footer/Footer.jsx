@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Footer() {
+function Footer(props) {
     return (
-        <footer>
+        <footer style={props.styling ? {position: 'absolute'} : null }>
             <div>
                 <p>Home</p>
                 <p>About</p>
@@ -12,7 +12,7 @@ function Footer() {
                 Design & Dev by Ahzam Bardai
             </div>
             <div>
-                <p className='scroll'>Scroll Up</p>
+                <p className='scrollup'>Scroll Up</p>
             </div>
         </footer>
     )
