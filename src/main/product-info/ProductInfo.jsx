@@ -13,7 +13,7 @@ function ProductInfo(props) {
     const item = props.items.filter(i => i.id === parseInt(props.match.id))
 
     const h = item[0].category === 'electronics' ? '400px' : item[0].category === 'jewelery' ? '400px' : '500px'
-    const w = (item[0].category === 'electronics' || item[0].category === "jewelery") ? '350px' : 'auto'
+    const w = (item[0].id === 9 || item[0].id === 12) ? '300px' : item[0].category === 'electronics' ? '500px' : item[0].category === "jewelery" ? '350px' : 'auto'
 
     return (
         <div>

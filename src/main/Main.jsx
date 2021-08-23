@@ -14,8 +14,7 @@ function Main({ items, getItems }) {
     const handleSearch = (e) => {
         // setFilter(true)
         setInput(e.target.value)
-        console.log(e.target.value, newItems)
-        const arr = newItems.filter(i => i.title.includes(input) || i.description.includes(input) || i.category.includes(input) || i.title.toLowerCase().includes(input) || i.description.toLowerCase().includes(input) || i.category.toLowerCase().includes(input) || i.title.toUpperCase().includes(input) || i.description.toUpperCase().includes(input) || i.category.toUpperCase().includes(input) || parseFloat(i.price) === parseFloat(input))
+        const arr = items.filter(i => i.title.includes(input) || i.description.includes(input) || i.category.includes(input) || i.title.toLowerCase().includes(input) || i.description.toLowerCase().includes(input) || i.category.toLowerCase().includes(input) || i.title.toUpperCase().includes(input) || i.description.toUpperCase().includes(input) || i.category.toUpperCase().includes(input) || parseFloat(i.price) === parseFloat(input))
         e.target.value !== '' ? setNewItems(arr) : getItems()
     }
 

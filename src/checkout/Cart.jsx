@@ -30,24 +30,26 @@ function Cart({ fillCart, setFillCart }) {
     }, [])
 
     return (
-        <div>
+        <div className='cart-page'>
             <Header />
+            <div className='cart-container'>
+                <div className='cart' >
+                    <div className='cart-header'>
+                        <h1>Checkout</h1>
+                        <h4>Total items: {fillCart.length}</h4>
+                    </div>
+                
+                    <div>
+                        {fillCart.map((item) => <FillCart item={item} /> )}
+                    </div>
 
-            <div className='cart' >
-                <div className='cart-header'>
-                    <h1>Checkout</h1>
-                    <h4>Total items: {fillCart.length}</h4>
-                </div>
-            
-                <div>
-                    { fillCart.length ? fillCart.map((item) => <FillCart item={item} /> ) : <h1>Cart Empty</h1>}
-                </div>
+                    <div className='cart-total'>
+                        <h1>Cart Total: </h1>
+                        <h4>Quantity: {fillCart.length}</h4>
+                        <h1>${total.toFixed(2)}</h1>
+                    </div>
 
-                <div className='cart-total'>
-                    <h1>Cart Total: </h1>
-                    <h4>${total}</h4>
                 </div>
-
             </div>
 
         </div>
