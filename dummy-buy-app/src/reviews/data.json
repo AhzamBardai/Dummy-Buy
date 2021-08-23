@@ -1,0 +1,262 @@
+[
+    {
+        "id" : 1,
+        "reviews" : [
+            {
+                "stars" : 5,
+                "review" : "This little backpack got me through 12 days of traveling Europe! I used a few space saver bags as well, but was able to bring 4 pairs of pants, 7 shirts, and 1 dress, then wore a few things twice. It held up really well throughout, and fit dimensions for WOW, Vueling, and EasyJet."
+            },
+            {
+                "stars" : 4,
+                "review" : "Just got my bag today and I can say I am throughly enjoyed! I love the quality and the price. It has nice sturdy handles and fabric and lots of little pockets."
+            }
+        ]
+    },
+    {
+        "id" : 2,
+        "reviews" : [
+            {
+                "stars" : 5,
+                "review" : "This little backpack got me through 12 days of traveling Europe! I used a few space saver bags as well, but was able to bring 4 pairs of pants, 7 shirts, and 1 dress, then wore a few things twice. It held up really well throughout, and fit dimensions for WOW, Vueling, and EasyJet."
+            },
+            {
+                "stars" : 4,
+                "review" : "Just got my bag today and I can say I am throughly enjoyed! I love the quality and the price. It has nice sturdy handles and fabric and lots of little pockets."
+            }
+        ]
+    },
+    {
+        "id" : 3,
+        "reviews" : [
+            {
+                "stars" : 5,
+                "review" : "This little backpack got me through 12 days of traveling Europe! I used a few space saver bags as well, but was able to bring 4 pairs of pants, 7 shirts, and 1 dress, then wore a few things twice. It held up really well throughout, and fit dimensions for WOW, Vueling, and EasyJet."
+            },
+            {
+                "stars" : 4,
+                "review" : "Just got my bag today and I can say I am throughly enjoyed! I love the quality and the price. It has nice sturdy handles and fabric and lots of little pockets."
+            }
+        ]
+    },
+    {
+        "id" : 4,
+        "reviews" : [
+            {
+                "stars" : 5,
+                "review" : "This little backpack got me through 12 days of traveling Europe! I used a few space saver bags as well, but was able to bring 4 pairs of pants, 7 shirts, and 1 dress, then wore a few things twice. It held up really well throughout, and fit dimensions for WOW, Vueling, and EasyJet."
+            },
+            {
+                "stars" : 4,
+                "review" : "Just got my bag today and I can say I am throughly enjoyed! I love the quality and the price. It has nice sturdy handles and fabric and lots of little pockets."
+            }
+        ]
+    },
+    {
+        "id" : 5,
+        "reviews" : [
+            {
+                "stars" : 5,
+                "review" : "This little backpack got me through 12 days of traveling Europe! I used a few space saver bags as well, but was able to bring 4 pairs of pants, 7 shirts, and 1 dress, then wore a few things twice. It held up really well throughout, and fit dimensions for WOW, Vueling, and EasyJet."
+            },
+            {
+                "stars" : 4,
+                "review" : "Just got my bag today and I can say I am throughly enjoyed! I love the quality and the price. It has nice sturdy handles and fabric and lots of little pockets."
+            }
+        ]
+    },
+    {
+        "id" : 6,
+        "reviews" : [
+            {
+                "stars" : 5,
+                "review" : "This little backpack got me through 12 days of traveling Europe! I used a few space saver bags as well, but was able to bring 4 pairs of pants, 7 shirts, and 1 dress, then wore a few things twice. It held up really well throughout, and fit dimensions for WOW, Vueling, and EasyJet."
+            },
+            {
+                "stars" : 4,
+                "review" : "Just got my bag today and I can say I am throughly enjoyed! I love the quality and the price. It has nice sturdy handles and fabric and lots of little pockets."
+            }
+        ]
+    },
+    {
+        "id" : 7,
+        "reviews" : [
+            {
+                "stars" : 5,
+                "review" : "This little backpack got me through 12 days of traveling Europe! I used a few space saver bags as well, but was able to bring 4 pairs of pants, 7 shirts, and 1 dress, then wore a few things twice. It held up really well throughout, and fit dimensions for WOW, Vueling, and EasyJet."
+            },
+            {
+                "stars" : 4,
+                "review" : "Just got my bag today and I can say I am throughly enjoyed! I love the quality and the price. It has nice sturdy handles and fabric and lots of little pockets."
+            }
+        ]
+    },
+    {
+        "id" : 8,
+        "reviews" : [
+            {
+                "stars" : 5,
+                "review" : "This little backpack got me through 12 days of traveling Europe! I used a few space saver bags as well, but was able to bring 4 pairs of pants, 7 shirts, and 1 dress, then wore a few things twice. It held up really well throughout, and fit dimensions for WOW, Vueling, and EasyJet."
+            },
+            {
+                "stars" : 4,
+                "review" : "Just got my bag today and I can say I am throughly enjoyed! I love the quality and the price. It has nice sturdy handles and fabric and lots of little pockets."
+            }
+        ]
+    },
+    {
+        "id" : 9,
+        "reviews" : [
+            {
+                "stars" : 5,
+                "review" : "This little backpack got me through 12 days of traveling Europe! I used a few space saver bags as well, but was able to bring 4 pairs of pants, 7 shirts, and 1 dress, then wore a few things twice. It held up really well throughout, and fit dimensions for WOW, Vueling, and EasyJet."
+            },
+            {
+                "stars" : 4,
+                "review" : "Just got my bag today and I can say I am throughly enjoyed! I love the quality and the price. It has nice sturdy handles and fabric and lots of little pockets."
+            }
+        ]
+    },
+    {
+        "id" : 10,
+        "reviews" : [
+            {
+                "stars" : 5,
+                "review" : "This little backpack got me through 12 days of traveling Europe! I used a few space saver bags as well, but was able to bring 4 pairs of pants, 7 shirts, and 1 dress, then wore a few things twice. It held up really well throughout, and fit dimensions for WOW, Vueling, and EasyJet."
+            },
+            {
+                "stars" : 4,
+                "review" : "Just got my bag today and I can say I am throughly enjoyed! I love the quality and the price. It has nice sturdy handles and fabric and lots of little pockets."
+            }
+        ]
+    },
+    {
+        "id" : 11,
+        "reviews" : [
+            {
+                "stars" : 5,
+                "review" : "This little backpack got me through 12 days of traveling Europe! I used a few space saver bags as well, but was able to bring 4 pairs of pants, 7 shirts, and 1 dress, then wore a few things twice. It held up really well throughout, and fit dimensions for WOW, Vueling, and EasyJet."
+            },
+            {
+                "stars" : 4,
+                "review" : "Just got my bag today and I can say I am throughly enjoyed! I love the quality and the price. It has nice sturdy handles and fabric and lots of little pockets."
+            }
+        ]
+    },
+    {
+        "id" : 12,
+        "reviews" : [
+            {
+                "stars" : 5,
+                "review" : "This little backpack got me through 12 days of traveling Europe! I used a few space saver bags as well, but was able to bring 4 pairs of pants, 7 shirts, and 1 dress, then wore a few things twice. It held up really well throughout, and fit dimensions for WOW, Vueling, and EasyJet."
+            },
+            {
+                "stars" : 4,
+                "review" : "Just got my bag today and I can say I am throughly enjoyed! I love the quality and the price. It has nice sturdy handles and fabric and lots of little pockets."
+            }
+        ]
+    },
+    {
+        "id" : 13,
+        "reviews" : [
+            {
+                "stars" : 5,
+                "review" : "This little backpack got me through 12 days of traveling Europe! I used a few space saver bags as well, but was able to bring 4 pairs of pants, 7 shirts, and 1 dress, then wore a few things twice. It held up really well throughout, and fit dimensions for WOW, Vueling, and EasyJet."
+            },
+            {
+                "stars" : 4,
+                "review" : "Just got my bag today and I can say I am throughly enjoyed! I love the quality and the price. It has nice sturdy handles and fabric and lots of little pockets."
+            }
+        ]
+    },
+    {
+        "id" : 14,
+        "reviews" : [
+            {
+                "stars" : 5,
+                "review" : "This little backpack got me through 12 days of traveling Europe! I used a few space saver bags as well, but was able to bring 4 pairs of pants, 7 shirts, and 1 dress, then wore a few things twice. It held up really well throughout, and fit dimensions for WOW, Vueling, and EasyJet."
+            },
+            {
+                "stars" : 4,
+                "review" : "Just got my bag today and I can say I am throughly enjoyed! I love the quality and the price. It has nice sturdy handles and fabric and lots of little pockets."
+            }
+        ]
+    },
+    {
+        "id" : 15,
+        "reviews" : [
+            {
+                "stars" : 5,
+                "review" : "This little backpack got me through 12 days of traveling Europe! I used a few space saver bags as well, but was able to bring 4 pairs of pants, 7 shirts, and 1 dress, then wore a few things twice. It held up really well throughout, and fit dimensions for WOW, Vueling, and EasyJet."
+            },
+            {
+                "stars" : 4,
+                "review" : "Just got my bag today and I can say I am throughly enjoyed! I love the quality and the price. It has nice sturdy handles and fabric and lots of little pockets."
+            }
+        ]
+    },
+    {
+        "id" : 16,
+        "reviews" : [
+            {
+                "stars" : 5,
+                "review" : "This little backpack got me through 12 days of traveling Europe! I used a few space saver bags as well, but was able to bring 4 pairs of pants, 7 shirts, and 1 dress, then wore a few things twice. It held up really well throughout, and fit dimensions for WOW, Vueling, and EasyJet."
+            },
+            {
+                "stars" : 4,
+                "review" : "Just got my bag today and I can say I am throughly enjoyed! I love the quality and the price. It has nice sturdy handles and fabric and lots of little pockets."
+            }
+        ]
+    },
+    {
+        "id" : 17,
+        "reviews" : [
+            {
+                "stars" : 5,
+                "review" : "This little backpack got me through 12 days of traveling Europe! I used a few space saver bags as well, but was able to bring 4 pairs of pants, 7 shirts, and 1 dress, then wore a few things twice. It held up really well throughout, and fit dimensions for WOW, Vueling, and EasyJet."
+            },
+            {
+                "stars" : 4,
+                "review" : "Just got my bag today and I can say I am throughly enjoyed! I love the quality and the price. It has nice sturdy handles and fabric and lots of little pockets."
+            }
+        ]
+    },
+    {
+        "id" : 18,
+        "reviews" : [
+            {
+                "stars" : 5,
+                "review" : "This little backpack got me through 12 days of traveling Europe! I used a few space saver bags as well, but was able to bring 4 pairs of pants, 7 shirts, and 1 dress, then wore a few things twice. It held up really well throughout, and fit dimensions for WOW, Vueling, and EasyJet."
+            },
+            {
+                "stars" : 4,
+                "review" : "Just got my bag today and I can say I am throughly enjoyed! I love the quality and the price. It has nice sturdy handles and fabric and lots of little pockets."
+            }
+        ]
+    },
+    {
+        "id" : 19,
+        "reviews" : [
+            {
+                "stars" : 5,
+                "review" : "This little backpack got me through 12 days of traveling Europe! I used a few space saver bags as well, but was able to bring 4 pairs of pants, 7 shirts, and 1 dress, then wore a few things twice. It held up really well throughout, and fit dimensions for WOW, Vueling, and EasyJet."
+            },
+            {
+                "stars" : 4,
+                "review" : "Just got my bag today and I can say I am throughly enjoyed! I love the quality and the price. It has nice sturdy handles and fabric and lots of little pockets."
+            }
+        ]
+    },
+    {
+        "id" : 20,
+        "reviews" : [
+            {
+                "stars" : 5,
+                "review" : "This little backpack got me through 12 days of traveling Europe! I used a few space saver bags as well, but was able to bring 4 pairs of pants, 7 shirts, and 1 dress, then wore a few things twice. It held up really well throughout, and fit dimensions for WOW, Vueling, and EasyJet."
+            },
+            {
+                "stars" : 4,
+                "review" : "Just got my bag today and I can say I am throughly enjoyed! I love the quality and the price. It has nice sturdy handles and fabric and lots of little pockets."
+            }
+        ]
+    }
+]

@@ -5,17 +5,17 @@ import Products from './products/Products'
 import Filter from './products/Filter'
 import Cart from '../checkout/Cart.jsx'
 
-function Main({ items, setItems, getItems }) {
+function Main({ items, getItems }) {
 
     const [newItems, setNewItems] = useState(items)
     const [input, setInput] = useState('')
     const [loading, setLoading] = useState('Loading')
 
     const handleSearch = (e) => {
-        e.preventDefault()
+        // setFilter(true)
         setInput(e.target.value)
-        console.log(newItems)
-        const arr = newItems.filter(i => i.title.includes(input) || i.description.includes(input) || i.category.includes(input) || i.title.toLowerCase().includes(input) || i.description.toLowerCase().includes(input) || i.category.toLowerCase().includes(input) || i.title.toUpperCase().includes(input) || i.description.toUpperCase().includes(input) || i.category.toUpperCase().includes(input))
+        console.log(e.target.value, newItems)
+        const arr = newItems.filter(i => i.title.includes(input) || i.description.includes(input) || i.category.includes(input) || i.title.toLowerCase().includes(input) || i.description.toLowerCase().includes(input) || i.category.toLowerCase().includes(input) || i.title.toUpperCase().includes(input) || i.description.toUpperCase().includes(input) || i.category.toUpperCase().includes(input) || parseFloat(i.price) === parseFloat(input))
         e.target.value !== '' ? setNewItems(arr) : getItems()
     }
 
@@ -29,11 +29,10 @@ function Main({ items, setItems, getItems }) {
 
             <Header />
 
-
             <div className='product-container'>
                 
 
-                <Filter items={items} />
+                <Filter items={newItems} setItems={setNewItems} getItems={getItems} setLoading={setLoading} />
 
                 <div className='products'>
 

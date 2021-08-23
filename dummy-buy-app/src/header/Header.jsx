@@ -7,10 +7,10 @@ function Header() {
 
     const [showCart, setShowCart] = useState(false)
 
-    const getCart = () => {
-        setShowCart(true)
-        return <Cart show={showCart} />
-    }
+    // const getCart = () => {
+    //     setShowCart(true)
+    //     return <Cart show={showCart} />
+    // }
 
     return (
         <header className="App-header">
@@ -21,7 +21,10 @@ function Header() {
                 <Link to='/' style={{ textDecoration: 'none'}} ><p className='App-name'>Dummy Buy</p></Link>
             <div>
                 <p className='nav'><Link to='/login' style={{ textDecoration: 'none', color: '#457778'  }} >Log in</Link> | <Link to='signup' style={{ textDecoration: 'none', color: '#457778'  }} >Sign up</Link></p>
-                <p className='nav' onClick={() => getCart()} ><strong>Cart</strong><img alt='cart' src={cart} height='40px' width='40px' /></p>
+                <p className='nav'>
+                    <Link to='/checkout' style={{ textDecoration: 'none', color: '#457778'}} ><strong>Cart</strong></Link>
+                    <Link to='/checkout' ><img alt='cart' src={cart} height='40px' width='40px' /></Link>
+                </p>
             </div>
         </header>
     )

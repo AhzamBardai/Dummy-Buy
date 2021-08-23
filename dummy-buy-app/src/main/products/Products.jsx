@@ -9,7 +9,8 @@ function Products({ item }) {
         <div className='card'>
             <Link to={`/product/${item.id}`}  style={{textDecoration: 'none'}}>
                 <img alt={item.title} src={item.image} width= {wid} />
-                <p >{item.title}</p>
+                <p>{item.title}</p>
+                <span>${item.price}</span>
             </Link>
         </div>
     )
