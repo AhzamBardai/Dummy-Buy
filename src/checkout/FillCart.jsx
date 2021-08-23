@@ -1,6 +1,6 @@
 import React,{ useState, useEffect } from 'react'
 
-function FillCart({ item }) {
+function FillCart({ item, removeItem }) {
 
 
     // const newPrice = item[0].price * counter
@@ -10,6 +10,7 @@ function FillCart({ item }) {
     
     return (
         <div className='cart-items'>
+            <button type='button' style={{width:'2rem', height:'2rem'}} onClick={() => removeItem(item.id)}>x</button>
             <span>
                 <img alt='item' src={item.image} height='100px' width='100px'/>
             </span>

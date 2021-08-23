@@ -161,6 +161,13 @@ footer div>* {
   cursor: pointer;
 }
 
+.trademark {
+  display: flex;
+}
+.trademark span{
+  margin-left: 10px;
+}
+
 
 
 .product-info-container {

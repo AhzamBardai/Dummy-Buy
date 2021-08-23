@@ -29,6 +29,11 @@ function Cart({ fillCart, setFillCart }) {
         setTotal(t)
     }, [])
 
+    const removeItem = (id) => {
+        const arr = fillCart.filter(item => item.id !== id)
+        setFillCart(arr)
+    }
+
     return (
         <div className='cart-page'>
             <Header />
@@ -40,7 +45,7 @@ function Cart({ fillCart, setFillCart }) {
                     </div>
                 
                     <div>
-                        {fillCart.map((item) => <FillCart item={item} /> )}
+                        {fillCart.map((item) => <FillCart item={item} removeItem={removeItem} /> )}
                     </div>
 
                     <div className='cart-total'>

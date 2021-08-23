@@ -14,13 +14,12 @@ function Header() {
 
     return (
         <header className="App-header">
+            <Link to='/' style={{ textDecoration: 'none'}} ><p className='App-name'>Dummy Buy</p></Link>
+
             <div>
                 <Link to='/' style={{ textDecoration: 'none' }}><p className='nav'>Home</p></Link>
                 <Link to='/about' style={{ textDecoration: 'none' }} ><p className='nav'>About</p></Link>
-            </div>
-                <Link to='/' style={{ textDecoration: 'none'}} ><p className='App-name'>Dummy Buy</p></Link>
-            <div>
-                <p className='nav'><Link to='/login' style={{ textDecoration: 'none', color: '#457778'  }} >Log in</Link> | <Link to='signup' style={{ textDecoration: 'none', color: '#457778'  }} >Sign up</Link></p>
+                {/* <p className='nav'><Link to='/login' style={{ textDecoration: 'none', color: '#457778'  }} >Log in</Link> | <Link to='signup' style={{ textDecoration: 'none', color: '#457778'  }} >Sign up</Link></p> */}
                 <p className='nav'>
                     <Link to='/checkout' style={{ textDecoration: 'none', color: '#457778'}} ><strong>Cart</strong></Link>
                     <Link to='/checkout' ><img alt='cart' src={cart} height='40px' width='40px' /></Link>
