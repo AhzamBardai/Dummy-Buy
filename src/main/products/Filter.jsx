@@ -79,9 +79,9 @@ function Filter({ items, setItems, getItems}) {
                 <label className='checkbox'><input type='checkbox' rel="women's clothing" onChange={(e) => changeCategory("women's clothing", e.target.checked)} ></input>Woman's Clothing</label>
 
                 <div className='filter-button'> 
-                    <button type='submit' >Submit Filter</button>
+                    <button type='submit' >Submit</button>
 
-                    <button type='button' onClick={() => getItems()} >Clear Filters</button>
+                    <button type='button' onClick={() => getItems()} >Clear</button>
                 </div>
 
                 </form>

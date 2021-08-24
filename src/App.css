@@ -4,7 +4,7 @@
 }
 
 
-
+/* header */
 .App-header {
   background: #dbcab9;
   min-height: 5vh;
@@ -30,6 +30,29 @@
   color: #457778;
 }
 
+/* About */
+.about{
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5rem;
+}
+  .about div{
+    border-radius: 1rem;
+    padding: 2rem;
+    width: 40%;
+    box-shadow: 0 0 10px darkgray;
+  }
+    .about div h1 {
+      text-align:center;
+    }
+    .about div p {
+      font-size: 1.25rem;
+    }
+    .about-name{
+      text-align: center;
+    }
+
+/* Product Display */
 .product-container {
   display: flex;
   justify-content: center;
@@ -96,6 +119,7 @@
 }
 
 
+/* filter */
 .filter-container {
   display: none;
   width: 30%;  
@@ -135,6 +159,8 @@
   cursor: pointer;
 }
 
+
+/* footer */
 footer {
   height: 5rem;
   background-color:#457778;
@@ -147,6 +173,7 @@ footer {
   bottom: 0;
   width: 100%;
   margin-top: 20px;
+  margin-bottom: 0;
 }
 footer div {
   display: flex;
@@ -169,7 +196,7 @@ footer div>* {
 }
 
 
-
+/* product info page */
 .product-info-container {
   display: flex;
   flex-direction: column;
@@ -189,7 +216,7 @@ footer div>* {
 }
 
 
-
+/* reviews */
 .reviews form {
   display: flex;
   flex-direction: column;
@@ -206,7 +233,7 @@ footer div>* {
 }
 
 
-
+/* checkout cart */
 .cart-container {
   display: flex;
   justify-content: center;
@@ -236,7 +263,7 @@ footer div>* {
 }
 
 .item-info {
-  width: 400px;
+  width: 40%;
   align-self: left;
 }
 
