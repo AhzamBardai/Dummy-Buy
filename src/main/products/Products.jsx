@@ -5,6 +5,7 @@ function Products({ item }) {
 
     const wid = item.category === 'electronics' ? 'auto' : '100px'
 
+    if(item) {
     return (
         <div className='card'>
             <Link to={`/product/${item.id}`}  style={{textDecoration: 'none'}}>
@@ -14,6 +15,7 @@ function Products({ item }) {
             </Link>
         </div>
     )
+    } else return <h1>No Items found.</h1>
 }
 
 export default Products

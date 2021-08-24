@@ -37,10 +37,9 @@ function Main({ items, getItems }) {
 
                     <input type='text' id='searchbar' placeholder=' Enter item name or type' defaultValue={input} onChange={e => handleSearch(e)} ></input>
 
-
                     <div className='product-cards'>
 
-                        { items.length ? newItems.map(item => <Products key={item.id} item={item} />) : <h1>{timeout()}</h1>}
+                        { items.length ? newItems.map(item => <Products key={item.id} item={item} />) : <h1 style={{fontFamily: '"Urbanist", sans-serif'}}>{timeout()}</h1>}
                         
                     </div>
 

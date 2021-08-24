@@ -37,7 +37,6 @@ function ProductInfo(props) {
 
     const h = item.category === 'electronics' ? '400px' : item.category === 'jewelery' ? '400px' : '500px'
     const w = (item.id === 9 || item.id === 12) ? '300px' : item.category === 'electronics' ? '500px' : item.category === "jewelery" ? '350px' : 'auto'
-    console.log(item, parseInt(props.match.id))
 
     if(!active) {
     return (
@@ -71,7 +70,7 @@ function ProductInfo(props) {
             <>
             <Header />
 
-            <h1 style={{textAlign:'center', marginTop:'10rem'}}>{timeout()}</h1>
+            <h1 style={{textAlign:'center', marginTop:'10rem', fontFamily: '"Urbanist", sans-serif'}}>{timeout()}</h1>
 
             </>
         )

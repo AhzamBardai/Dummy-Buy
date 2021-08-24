@@ -34,7 +34,6 @@ function Filter({ items, setItems, getItems}) {
         setCategory(arr)
     }
 
-    console.log(category, priceMax, priceMin)
 
     const filterSubmit = (e) => {
         e.preventDefault()
@@ -49,7 +48,6 @@ function Filter({ items, setItems, getItems}) {
 
         if(category.some(i => i.active)) {
             const catActive = category.filter(cat => cat.active)
-            console.log(catActive)
             const arr =  []
             catActive.forEach(i => newItems.forEach(item => item.category === i.cat && arr.push(item)))
             setItems(arr)

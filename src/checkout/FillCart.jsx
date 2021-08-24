@@ -4,9 +4,8 @@ function FillCart({ item, removeItem }) {
 
 
     // const newPrice = item[0].price * counter
-    // console.log( newPrice)
-
     // useEffect(() => incrementItem(item, counter), [])
+    
     
     return (
         <div className='cart-items'>

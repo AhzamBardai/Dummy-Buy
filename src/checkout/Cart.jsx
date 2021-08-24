@@ -17,12 +17,6 @@ function Cart({ fillCart, setFillCart }) {
         id === str ? getId() : newId(str)
     }
 
-    // function getTotal () {
-    //     var t = total
-    //     fillCart.forEach(item => t = t + (item[0].price))
-    //     setTotal(t)
-    // }
-
     useEffect(() => {
         var t = total
         fillCart.forEach(i =>  t = t + i.price)
