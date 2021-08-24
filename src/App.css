@@ -10,7 +10,7 @@
 /* header */
 .App-header {
   background: #dbcab9;
-  min-height: 5vh;
+  height: 5rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -27,7 +27,7 @@
 }
 .App-header div p {
   display: inline-flex;
-  align-items: center;
+  align-self: center;
   padding: 0 20px;
 }
 .App-header p {
@@ -58,14 +58,14 @@
       text-align: center;
     }
 
+
+
 /* Product Display */
 .product-container {
   display: flex;
   justify-content: center;
   margin-top: 20px;
   font-family: 'Nunito', sans-serif;
-
-
 }
 
 .product-container div {
