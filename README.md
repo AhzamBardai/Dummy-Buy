@@ -1,3 +1,6 @@
+# Dummy-Buy
+A React web app based on E-Commerce websites 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

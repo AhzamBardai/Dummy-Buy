@@ -19,7 +19,7 @@ function Cart({ fillCart, setFillCart }) {
 
     useEffect(() => {
         var t = total
-        fillCart.forEach(i =>  t = t + i.price)
+        fillCart.forEach(i =>  t = (t + i.price) * 1.0825)
         setTotal(t)
     }, [])
 
